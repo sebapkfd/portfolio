@@ -9,9 +9,10 @@ const Navbar = () => {
             <Link to={'/Projects'}>
                 <p>Projects</p>
             </Link>
-            <Link to ={'../public/assets/Sebastián Soto-CV.pdf'} target="_blank" rel="noopener noreferrer"> 
+            <Link to ={'../src/assets/Sebastián Soto-CV.pdf'} target="_blank" rel="noopener noreferrer"> 
                 <p>Resume</p>
             </Link>
+            <a href ={'../assets/Sebastián Soto-CV.pdf'} target="_blank" >Resume</a>
         </div>
     )
 }
