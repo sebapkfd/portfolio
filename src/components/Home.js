@@ -1,5 +1,6 @@
 import Skills from "./Skills";
 import ProjectItem from "./ProjectItem";
+import projectList from "../assets/projectList";
 
 const Home = () => {
 
@@ -12,8 +13,9 @@ const Home = () => {
             <Skills/>
             <h1>Projects</h1>
 
-            <ProjectItem name={'Shopping Cart'}/>
-            <ProjectItem name={'Battleship'}/>
+            {projectList.map(pr => {
+                return <ProjectItem project={pr}/>
+            })}
             <button>See more</button>
         </div>
     )

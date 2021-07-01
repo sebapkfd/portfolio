@@ -1,10 +1,15 @@
+import { Link } from "react-router-dom";
+
 const ProjectItem = (props) => { 
-    const {name} = props;
+    const {project} = props;
 
     return (
         <div>
             <h1>Project Item</h1>
-            <h2>{name}</h2>
+            <h2>{project.name}</h2>
+            <Link to={`/projects/${project.id}`}>
+                <p>See more</p>
+            </Link>
         </div>
     )
 }

@@ -4,10 +4,10 @@ import CV from '../assets/CV.pdf';
 const Navbar = () => {
     return (
         <div>
-            <Link to ={'/Home'}>
+            <Link to ={'/home'}>
                 <p>Home</p>
             </Link>
-            <Link to={'/Projects'}>
+            <Link to={'/projects'}>
                 <p>Projects</p>
             </Link>
             <Link to ={CV} target="_blank" rel="noopener noreferrer"> 
