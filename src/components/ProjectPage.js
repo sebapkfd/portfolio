@@ -3,7 +3,7 @@ import projectList from "../assets/projectList";
 
 const ProjectPage = () => {
     const {id} = useParams();
-    const project = projectList.filter(pr => pr.id == id)[0];
+    const project = projectList.filter(pr => pr.id === id)[0];
 
     return (
         <div>
