@@ -1,19 +1,22 @@
 const projectList = [
     {
         name: 'Shopping Cart',
-        link: 'https://github.com/sebapkfd/shopping-cart',
+        repo: 'https://github.com/sebapkfd/shopping-cart',
+        link: 'https://sebapkfd.github.io/shopping-cart/',
         id: '1',
         showOnHome: true
     },
     {
         name: 'Battleship',
-        link: 'https://github.com/sebapkfd/battleship',
+        repo: 'https://github.com/sebapkfd/battleship',
+        link: 'https://sebapkfd.github.io/battleship/',
         id: '2',
         showOnHome: true
     },
     {
         name: 'Weather App',
-        link: 'https://github.com/sebapkfd/Weather-app',
+        repo: 'https://github.com/sebapkfd/Weather-app',
+        link: 'https://sebapkfd.github.io/Weather-app/',
         id: '3',
         showOnHome: true
     }
