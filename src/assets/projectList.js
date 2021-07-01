@@ -19,6 +19,27 @@ const projectList = [
         link: 'https://sebapkfd.github.io/Weather-app/',
         id: '3',
         showOnHome: true
+    },
+    {
+        name: 'CV project',
+        repo: 'https://github.com/sebapkfd/cv-project',
+        link: 'https://sebapkfd.github.io/cv-project/',
+        id: '4',
+        showOnHome: false
+    },
+    {
+        name: 'Todo list',
+        repo: 'https://github.com/sebapkfd/todolist',
+        link: 'https://sebapkfd.github.io/todolist/',
+        id: '5',
+        showOnHome: false
+    },
+    {
+        name: 'Memory Card Game',
+        repo: 'https://github.com/sebapkfd/memory-card',
+        link: 'https://sebapkfd.github.io/memory-card/',
+        id: '6',
+        showOnHome: false
     }
 ]
 
