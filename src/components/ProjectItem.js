@@ -10,6 +10,7 @@ const ProjectItem = (props) => {
             <Link to={`/portfolio/projects/${project.id}`}>
                 <p>See more</p>
             </Link>
+            <a href={project.link} target='_blank' rel="noopener noreferrer">Live demo</a>
         </div>
     )
 }

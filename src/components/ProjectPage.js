@@ -9,6 +9,7 @@ const ProjectPage = () => {
         <div>
             <h1>Project Page</h1>
             <h1>{project.name}</h1>
+            <a href={project.repo} target='_blank' rel="noopener noreferrer">Repository</a>
             <a href={project.link} target='_blank' rel="noopener noreferrer">Live demo</a>
         </div>
     )
