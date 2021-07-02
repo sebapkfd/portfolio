@@ -3,7 +3,7 @@ import CV from '../assets/CV.pdf';
 
 const Navbar = () => {
     return (
-        <div>
+        <div id={'navbar'}>
             <Link to ={'/portfolio/home'}>
                 <p>Home</p>
             </Link>
