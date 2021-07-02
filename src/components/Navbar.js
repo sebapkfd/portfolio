@@ -4,7 +4,7 @@ import CV from '../assets/CV.pdf';
 const Navbar = () => {
     return (
         <div id={'navbar'}>
-            <Link to ={'/portfolio/home'}>
+            <Link to ={'/portfolio'}>
                 <p>Home</p>
             </Link>
             <Link to={'/portfolio/projects'}>
