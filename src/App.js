@@ -12,13 +12,13 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Switch>
-          <Route exact path={'/projects/:id'}>
+          <Route exact path={'/portfolio/projects/:id'}>
             <ProjectPage/>
           </Route>
-          <Route exact path={'/projects'}>
+          <Route exact path={'/portfolio/projects'}>
             <Projects/>
           </Route>
-          <Route exact path={'/home'}>
+          <Route path={'/portfolio/home'}>
             <Home/>
           </Route>
         </Switch>

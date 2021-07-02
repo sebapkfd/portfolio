@@ -7,7 +7,7 @@ const ProjectItem = (props) => {
         <div>
             <h1>Project Item</h1>
             <h2>{project.name}</h2>
-            <Link to={`/projects/${project.id}`}>
+            <Link to={`/portfolio/projects/${project.id}`}>
                 <p>See more</p>
             </Link>
         </div>
