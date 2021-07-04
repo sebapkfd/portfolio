@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
-        <div>
-            <h1 id='skills' href='skills'>Skills</h1>
+        <div className='section' id='skills' href='skills'>
+            <h1 >Skills</h1>
             <p>Javascript</p>
             <p>React</p>
             <p>Node</p>
