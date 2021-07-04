@@ -1,7 +1,6 @@
 import Skills from "./Skills";
 import ProjectItem from "./ProjectItem";
 import projectList from "../assets/projectList";
-import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
