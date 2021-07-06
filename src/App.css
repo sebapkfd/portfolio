@@ -46,22 +46,20 @@ a {
 }
 
 #about {
-    /* background-color: rgb(163, 163, 163); */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
-#about div{
-    /* background-color: rgb(51, 50, 50); */
+.about__colums{
     width: 30%;
     margin: 0 5%;
     min-height: 240px;
 }
 
 #about__info {
-    /* color: red; */
     font-size: 1.3em;
     display: flex;
     flex-direction: column;
