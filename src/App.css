@@ -24,10 +24,11 @@ html {
     position: fixed;
     top: 0;
     margin: 0;
-    height: 20px;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #navbar a {
@@ -70,4 +71,14 @@ a {
 #about__info h1 {
     font-size: 3em;
     margin-top: 0;
+}
+
+#skills {
+    border: rgb(163, 163, 163) solid 2px;
+
+}
+
+#skills h1 {
+    font-size: 3em;
+
 }
