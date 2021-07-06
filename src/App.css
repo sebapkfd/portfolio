@@ -93,8 +93,15 @@ a {
     display: grid;
     padding-top: 15px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
-    /* grid-auto-rows: minmax(200px, auto); */
     justify-content: space-evenly;
-    /* column-gap: 10px; */
-    row-gap: 55px;
+}
+
+.skill-item__table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 150px));
+}
+
+.skill-item__table img {
+    height: 48px;
+    width: 48px;
 }
