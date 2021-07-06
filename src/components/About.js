@@ -2,7 +2,7 @@ const About = () => {
     return (
         <div className='section' id='about' href='about'>
             <div className='about__colums'>
-                <img src="https://img.icons8.com/android/240/000000/google-code.png"/>
+                <img src="https://img.icons8.com/android/240/000000/google-code.png" alt='main-logo'/>
             </div>
             <div id='about__info' className='about__colums'>
                 <h1>About me</h1>
