@@ -75,10 +75,26 @@ a {
 
 #skills {
     border: rgb(163, 163, 163) solid 2px;
-
 }
 
 #skills h1 {
     font-size: 3em;
+}
 
+.skill-item {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    width: 20vw;
+    border-radius: 15px;
+    padding: 5px 0;
+}
+
+#skills-table {
+    display: grid;
+    padding-top: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+    /* grid-auto-rows: minmax(200px, auto); */
+    justify-content: space-evenly;
+    /* column-gap: 10px; */
+    row-gap: 55px;
 }
