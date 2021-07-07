@@ -67,8 +67,11 @@ a {
     margin-top: 0;
 }
 
-#skills h1, #projects h1, #contact h1 {
+#skills h1,
+#projects h1,
+#contact h1 {
     font-size: 3em;
+    margin-top: 40px;
 }
 
 .skill-item {
