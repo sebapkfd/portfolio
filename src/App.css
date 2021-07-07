@@ -96,8 +96,8 @@ a {
     width: 48px;
 }
 
-#projects {
-}
+/* #projects {
+} */
 
 .project-item{
     background-color: white;
@@ -141,4 +141,16 @@ a {
 .repo-link {
     border: rgb(115, 62, 175) solid 3px;
     color: rgb(115, 62, 175);
+}
+
+.project-item__stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-item__stack img{
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
 }

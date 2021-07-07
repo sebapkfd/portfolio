@@ -10,6 +10,7 @@ import npm from '../assets/npm-logo.png';
 import heroku from '../assets/heroku-logo.png';
 import github from '../assets/github-logo.png';
 import webpack from '../assets/webpack-logo.png';
+import jest from '../assets/jest-logo.png';
 
 const Skills = () => {
     return (
@@ -35,7 +36,10 @@ const Skills = () => {
                             <img src={css} alt='css-logo'/>
                             <p>CSS</p>
                         </div>
-                        {/* <p>Jest</p> */}
+                        <div>
+                            <img src={jest} alt='jest-logo'/>
+                            <p>Jest</p>
+                        </div>
                     </div>
                     
                 </div>
