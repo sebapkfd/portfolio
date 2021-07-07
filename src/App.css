@@ -40,12 +40,6 @@ a {
     text-decoration: none;
 }
 
-.project-item{
-    border: rgb(163, 163, 163) solid 2px;
-    margin-bottom: 5px;
-    border-radius: 15px;
-}
-
 #about {
     display: flex;
     flex-direction: row;
@@ -73,11 +67,7 @@ a {
     margin-top: 0;
 }
 
-#skills {
-    border: rgb(163, 163, 163) solid 2px;
-}
-
-#skills h1 {
+#skills h1, #projects h1, #contact h1 {
     font-size: 3em;
 }
 
@@ -104,4 +94,43 @@ a {
 .skill-item__table img {
     height: 48px;
     width: 48px;
+}
+
+#projects {
+    border: gray solid 2px;
+}
+
+.project-item{
+    margin: 15px 0;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 50%));
+    padding: 10px 0;
+}
+
+.project-item img {
+    width: 80%;
+}
+
+.project-item h2 {
+    font-size: 2.5em;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+    text-align: start;
+}
+
+.project-item__info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.project-item__info a{
+    margin-right: 10px;
+    border: rgb(72, 189, 154) solid 3px;
+    color: rgb(72, 189, 154);
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 20px;
 }

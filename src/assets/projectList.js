@@ -1,3 +1,7 @@
+import shopping from '../assets/shopping-desk.png';
+import battleship from '../assets/battleship-desk.png';
+import weather from '../assets/weather-desk.png';
+
 const projectList = [
     {
         name: 'Shopping Cart',
@@ -5,7 +9,8 @@ const projectList = [
         link: 'https://sebapkfd.github.io/shopping-cart/',
         id: '1',
         showOnHome: true,
-        techUsed: ['js', 'react', 'css', 'html', 'git', 'npm']
+        techUsed: ['js', 'react', 'css', 'html', 'git', 'npm'],
+        img: shopping,
     },
     {
         name: 'Battleship',
@@ -13,7 +18,8 @@ const projectList = [
         link: 'https://sebapkfd.github.io/battleship/',
         id: '2',
         showOnHome: true,
-        techUsed: ['js', 'react', 'css', 'html', 'git', 'npm', 'jest']
+        techUsed: ['js', 'react', 'css', 'html', 'git', 'npm', 'jest'],
+        img: battleship
     },
     {
         name: 'Weather App',
@@ -21,7 +27,8 @@ const projectList = [
         link: 'https://sebapkfd.github.io/Weather-app/',
         id: '3',
         showOnHome: true,
-        techUsed: ['js', 'react', 'css', 'html', 'git', 'npm']
+        techUsed: ['js', 'react', 'css', 'html', 'git', 'npm'],
+        img: weather
     },
     {
         name: 'CV project',
