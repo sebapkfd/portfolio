@@ -87,7 +87,7 @@ a {
 .skill-item {
     background-color: var(--semi);
     color: var(--clear);
-    width: 90%;
+    width: 320px;
     border-radius: 15px;
     padding: 5px 0;
     box-shadow: 2px 8px 10px rgba(32, 32, 109, 0.2);
@@ -95,16 +95,28 @@ a {
 }
 
 #skills-table {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
-    row-gap: 1em;
-    justify-items: center;
 }
 
 .skill-item__table {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(75px, 150px));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill-item__table div {
+    width: 40%;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.skill-item__table div:hover {
+    color: var(--skyblue);
 }
 
 .skill-item__table img {
