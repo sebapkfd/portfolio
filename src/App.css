@@ -18,6 +18,7 @@ html {
     flex-direction: column;
     color: var(--dark);
     background-color: var(--clear);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section {
@@ -239,5 +240,5 @@ a {
 }
 
 .tool img {
-    /* filter: grayscale(50%); */
+    /* filter: grayscale(100%); */
 }
