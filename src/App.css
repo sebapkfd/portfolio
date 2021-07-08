@@ -6,10 +6,18 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --dark: rgb(34, 40, 49);
+    --semi: rgb(57, 62, 70);
+    --skyblue: rgb(0, 173, 181);
+    --clear: rgb(238, 238, 238);
+}
+
 .App {
     display: flex;
     flex-direction: column;
-    color: rgb(37, 37, 37);
+    color: var(--dark);
+    background-color: var(--clear);
 }
 
 .section {
@@ -20,8 +28,8 @@ html {
 }
 
 #navbar {
-    background-color: rgb(37, 37, 37);
-    color: rgb(255, 255, 255);
+    background-color: var(--semi);
+    color: var(--clear);
     position: fixed;
     top: 0;
     margin: 0;
@@ -33,7 +41,7 @@ html {
 }
 
 #navbar a {
-    color: rgb(255, 255, 255);
+    color: var(--clear);
     margin-right: 15px;
 }
 
@@ -76,11 +84,12 @@ a {
 }
 
 .skill-item {
-    background-color: rgb(37, 37, 37);
-    color: white;
+    background-color: var(--semi);
+    color: var(--clear);
     width: 20vw;
     border-radius: 15px;
     padding: 5px 0;
+    box-shadow: 2px 8px 10px rgba(0, 0, 255, .2);
 }
 
 #skills-table {
@@ -101,12 +110,13 @@ a {
 }
 
 .project-item{
-    background-color: white;
+    background-color: var(--clear);
     border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20%, 50%));
     padding: 10px 0;
     margin: 15px 0;
+    box-shadow: 2px 8px 10px rgba(0, 0, 255, .2);
 }
 
 .project-item img {
@@ -134,27 +144,27 @@ a {
 }
 
 .demo-link {
-    border: rgb(72, 189, 154) solid 3px;
-    color: rgb(72, 189, 154);
+    border: var(--skyblue) solid 3px;
+    color: var(--skyblue);
     transition: 0.3s;
 }
 
 .demo-link:hover {
-    border: rgb(72, 189, 154) solid 3px;
-    background-color: rgb(72, 189, 154);
-    color: rgb(255, 255, 255);
+    border: var(--skyblue) solid 3px;
+    background-color: var(--skyblue);
+    color: var(--clear);
 }
 
 .repo-link {
-    border: rgb(115, 62, 175) solid 3px;
-    color: rgb(115, 62, 175);
+    border: var(--semi) solid 3px;
+    color: var(--semi);
     transition: 0.3s;
 }
 
 .repo-link:hover {
-    border: rgb(115, 62, 175) solid 3px;
-    background-color: rgb(115, 62, 175);
-    color: rgb(255, 255, 255);
+    border: var(--semi) solid 3px;
+    background-color: var(--semi);
+    color: var(--clear);
 }
 
 .project-item__stack {
@@ -178,11 +188,12 @@ a {
 }
 
 #contact-info {
-    background-color: rgb(37, 37, 37);
+    background-color: var(--semi);
     border-radius: 25px;
-    color: rgb(255, 255, 255);
+    color: var(--clear);
     padding: 6% 0;
     width: 50%;
+    box-shadow: 2px 8px 10px rgba(0, 0, 255, .2);
 }
 
 #contact__links {
@@ -216,8 +227,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(42, 83, 71);
-    background-color: rgb(103, 202, 172);
+    color: var(--semi);
+    background-color: var(--skyblue);
     margin-left: 4px;
     border-radius: 15px;
     padding: 0 5px;
@@ -228,5 +239,5 @@ a {
 }
 
 .tool img {
-    filter: grayscale(100%);
+    /* filter: grayscale(50%); */
 }
