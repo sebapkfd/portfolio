@@ -7,7 +7,7 @@ const About = () => {
             <div id='about__info' className='about__colums'>
                 <h1>About me</h1>
                 <span>
-                    Hi, I'm Sebastian Soto and I am a Full Stack Web Developer. I have been programming since 2017 and I’m willing to keep learning new languages and tools.
+                    Hi, my name is Sebastian Soto and I am a Full Stack Web Developer. I have been programming since 2017 and I’m willing to keep learning new languages and tools.
                 </span>
             </div>
         </div>
