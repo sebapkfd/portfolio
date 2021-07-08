@@ -87,7 +87,7 @@ a {
 .skill-item {
     background-color: var(--semi);
     color: var(--clear);
-    width: 20vw;
+    width: 90%;
     border-radius: 15px;
     padding: 5px 0;
     box-shadow: 2px 8px 10px rgba(32, 32, 109, 0.2);
