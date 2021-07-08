@@ -114,8 +114,7 @@ a {
 
 .project-item h2 {
     font-size: 2.5em;
-    line-height: 28px;
-    margin: 0 0 15px 0;
+    margin: 0;
     text-align: start;
 }
 
@@ -136,11 +135,25 @@ a {
 .demo-link {
     border: rgb(72, 189, 154) solid 3px;
     color: rgb(72, 189, 154);
+    transition: 0.3s;
+}
+
+.demo-link:hover {
+    border: rgb(72, 189, 154) solid 3px;
+    background-color: rgb(72, 189, 154);
+    color: rgb(255, 255, 255);
 }
 
 .repo-link {
     border: rgb(115, 62, 175) solid 3px;
     color: rgb(115, 62, 175);
+    transition: 0.3s;
+}
+
+.repo-link:hover {
+    border: rgb(115, 62, 175) solid 3px;
+    background-color: rgb(115, 62, 175);
+    color: rgb(255, 255, 255);
 }
 
 .project-item__stack {
