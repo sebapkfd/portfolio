@@ -1,7 +1,7 @@
 import shopping from '../assets/shopping-desk.png';
 import battleship from '../assets/battleship-desk.png';
 import weather from '../assets/weather-desk.png';
-import js from '../assets/js-logo.png';
+import javascript from '../assets/js-logo.png';
 import react from '../assets/react-logo.png';
 import html from '../assets/html-logo.png';
 import css from '../assets/css-logo.png';
@@ -17,7 +17,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/shopping-cart/',
         id: '1',
         showOnHome: true,
-        techUsed: [js, react, css, html, git, npm],
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
         img: shopping,
     },
     {
@@ -26,7 +26,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/battleship/',
         id: '2',
         showOnHome: true,
-        techUsed: [js, react, css, html, git, npm, jest],
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}, {jest}],
         img: battleship
     },
     {
@@ -35,7 +35,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/Weather-app/',
         id: '3',
         showOnHome: true,
-        techUsed: [js, react, css, html, git, npm],
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
         img: weather
     },
     {
@@ -44,7 +44,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/cv-project/',
         id: '4',
         showOnHome: false,
-        techUsed: [js, react, css, html, git, npm]
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}]
     },
     {
         name: 'Todo list',
@@ -52,7 +52,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/todolist/',
         id: '5',
         showOnHome: false,
-        techUsed: [js, webpack, css, html, git]
+        techUsed: [{javascript}, {webpack}, {css}, {html}, {git}]
     },
     {
         name: 'Memory Card Game',
@@ -60,7 +60,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/memory-card/',
         id: '6',
         showOnHome: false,
-        techUsed: [js, react, css, html, git, npm]
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}]
     }
 ]
 

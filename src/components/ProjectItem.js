@@ -1,3 +1,5 @@
+import Tool from "./Tool";
+
 const ProjectItem = (props) => { 
     const {project} = props;
 
@@ -11,7 +13,7 @@ const ProjectItem = (props) => {
                 <div className='project-item__stack'>
                     <p>Made with</p>
                     {project.techUsed.map((item, index) => {
-                        return <img src={item} alt='' key={index}/>
+                        return <Tool item={item} key={index}/>
                     })}
                 </div>
                 <div>
