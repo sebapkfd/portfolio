@@ -11,6 +11,11 @@ html {
     --semi: rgb(57, 62, 70);
     --skyblue: rgb(0, 173, 181);
     --clear: rgb(238, 238, 238);
+    
+    /* --dark: rgb(23, 23, 23);
+    --semi: rgb(68, 68, 68);
+    --skyblue: rgb(218, 0, 55);
+    --clear: rgb(237, 237, 237); */
 }
 
 .App {
@@ -63,6 +68,11 @@ a {
     min-height: 100vh;
 }
 
+.material-icons {
+    color: var(--semi);
+    font-size: 300px;
+}
+
 .about__colums{
     width: 30%;
     margin: 0 5%;
@@ -95,6 +105,7 @@ a {
     width: 320px;
     border-radius: 15px;
     padding: 5px 0;
+    margin-bottom: 10px;
     box-shadow: 2px 8px 10px rgba(151, 151, 255, 0.2);
     transition: 0.3s;
 }
@@ -146,8 +157,18 @@ a {
     transition: 0.3s;
 }
 
+.project-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item div {
+    width: 531px;
+}
+
 .project-item img {
     width: 80%;
+    align-self: center;
 }
 
 .project-item h2 {
@@ -195,10 +216,15 @@ a {
 }
 
 .project-item__stack {
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.project-item__stack div {
+    max-width: 100px;
 }
 
 .project-item__stack img{
@@ -255,12 +281,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--semi);
-    background-color: var(--skyblue);
+    color: var(--clear);
+    background-color: var(--semi);
     margin-left: 4px;
     border-radius: 15px;
     padding: 0 5px;
     transition: 0.3s;
+    width: 15px;
 }
 
 .tool p {
@@ -268,5 +295,5 @@ a {
 }
 
 .tool:hover {
-    color: var(--clear);
+    color: var(--skyblue);
 }

@@ -52,7 +52,8 @@ const projectList = [
         link: 'https://sebapkfd.github.io/todolist/',
         id: '5',
         showOnHome: false,
-        techUsed: [{javascript}, {webpack}, {css}, {html}, {git}]
+        techUsed: [{javascript}, {webpack}, {css}, {html}, {git}],
+        img: weather
     },
     {
         name: 'Memory Card Game',
@@ -60,7 +61,8 @@ const projectList = [
         link: 'https://sebapkfd.github.io/memory-card/',
         id: '6',
         showOnHome: false,
-        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}]
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
+        img: weather
     }
 ]
 

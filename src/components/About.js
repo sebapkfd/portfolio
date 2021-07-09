@@ -1,8 +1,9 @@
 const About = () => {
+
     return (
         <div className='section' id='about' href='about'>
             <div className='about__colums'>
-                <img src="https://img.icons8.com/android/240/000000/google-code.png" alt='main-logo'/>
+                <span class="material-icons">code</span>
             </div>
             <div id='about__info' className='about__colums'>
                 <h2>Sebastian Soto</h2>
