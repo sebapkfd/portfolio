@@ -17,7 +17,7 @@ const ProjectItem = (props) => {
                     })}
                 </div>
                 <div>
-                    <a href={project.link} className='demo-link' target='_blank' rel="noopener noreferrer">Live demo</a>
+                    <a href={project.link} className='demo-link' target='_blank' rel="noopener noreferrer">Live</a>
                     <a href={project.repo} className='repo-link' target='_blank' rel="noopener noreferrer">Repository</a>
                 </div>
             </div>

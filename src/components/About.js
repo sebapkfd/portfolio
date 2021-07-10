@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div className='section' id='about' href='about'>
             <div className='about__colums'>
-                <span class="material-icons">code</span>
+                <span className="material-icons">code</span>
             </div>
             <div id='about__info' className='about__colums'>
                 <h2>Sebastian Soto</h2>
