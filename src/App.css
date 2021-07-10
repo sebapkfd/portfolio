@@ -173,9 +173,8 @@ a {
 }
 
 .project-item h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0;
-    text-align: start;
 }
 
 .project-item__info {
@@ -191,10 +190,14 @@ a {
 }
 
 .project-item__info a{
-    margin-right: 10px;
+    margin: 20px 10px;
     text-decoration: none;
     padding: 6px 12px;
     border-radius: 20px;
+}
+
+.project-item__links {
+    margin: 15px 0;
 }
 
 .demo-link {
@@ -226,21 +229,22 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 15px;
+    align-items: flex-start;
 }
 
 .tool {
     display: flex;
     flex: 0;
-    justify-content: center;
-    align-self: center;
-    align-content: center;
     color: var(--clear);
     background-color: var(--semi);
-    margin-left: 4px;
     border-radius: 15px;
     padding: 0 5px;
     transition: 0.3s;
-    margin: 10px 0 0px 4px;
+    margin: 10px 0 0 4px;
+}
+
+.project-item__stack p {
+    margin: 10px 0 0 4px;
 }
 
 .tool p {

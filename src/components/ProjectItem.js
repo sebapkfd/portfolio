@@ -16,7 +16,7 @@ const ProjectItem = (props) => {
                         return <Tool item={item} key={index}/>
                     })}
                 </div>
-                <div>
+                <div className='project-item__links'>
                     <a href={project.link} className='demo-link' target='_blank' rel="noopener noreferrer">Live</a>
                     <a href={project.repo} className='repo-link' target='_blank' rel="noopener noreferrer">Repository</a>
                 </div>
