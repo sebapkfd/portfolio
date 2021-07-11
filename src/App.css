@@ -342,9 +342,15 @@ a {
         color: var(--clear);
         justify-content: flex-end;
         align-items: flex-end;
+        transition: 0.3s;
     }
     .responsive * {
         margin: 5px 35px 5px 0;
         color: var(--clear);
+    }
+
+    .responsive a:hover,
+    #navbar__control:hover {
+        color: var(--skyblue);
     }
 }
