@@ -66,6 +66,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     min-height: 100vh;
 }
 
@@ -84,13 +85,21 @@ a {
     font-size: 1.3em;
     display: flex;
     flex-direction: column;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
-#about__info h1 {
-    font-size: 3em;
+#about__info h2 {
     margin-top: 0;
+}
+
+#about__info h2,
+#about__info h3 {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    text-align: left;
+}
+
+#about__info span {
+    text-align: justify;
 }
 
 #skills h1,

@@ -7,8 +7,9 @@ const About = () => {
             </div>
             <div id='about__info' className='about__colums'>
                 <h2>Sebastian Soto</h2>
+                <h3>Fullstack Web Developer</h3>
                 <span>
-                    Hi, I am a Full Stack Web Developer, I code since 2017 and I’m always learning new languages and tools.
+                    I have been coding since 2017 and I’m always learning new languages and tools.
                 </span>
             </div>
         </div>
