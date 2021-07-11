@@ -333,7 +333,7 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    .responsive {
+    .navbar.responsive {
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -343,13 +343,15 @@ a {
         justify-content: flex-end;
         align-items: flex-end;
         transition: 0.3s;
+        height: auto;
     }
-    .responsive * {
+    .navbar.responsive * {
+        display: flex;
         margin: 5px 35px 5px 0;
         color: var(--clear);
     }
 
-    .responsive a:hover,
+    .navbar.responsive a:hover,
     #navbar__control:hover {
         color: var(--skyblue);
     }

@@ -5,11 +5,11 @@ const Navbar = () => {
     const [screen, setScreen] = useState('navbar');
 
     const toggleNavbar = () => {
-        (screen === 'navbar') ? setScreen('responsive') : setScreen('navbar');
+        (screen === 'navbar') ? setScreen('navbar responsive') : setScreen('navbar');
     }
 
     const hideNavbar = () => {
-        if (screen === 'responsive') {
+        if (screen === 'navbar responsive') {
             setScreen('navbar')
         }
     }
