@@ -38,7 +38,7 @@ a {
     text-align: center;
 }
 
-#navbar {
+.navbar {
     background-color: var(--semi);
     color: var(--clear);
     position: fixed;
@@ -49,15 +49,16 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 45px;
 }
 
-#navbar a {
+.navbar a {
     color: var(--clear);
     margin-right: 15px;
     transition: 0.3s;
 }
 
-#navbar a:hover {
+.navbar a:hover {
     color: var(--skyblue);
 }
 
@@ -67,18 +68,18 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .material-icons {
     color: var(--semi);
-    font-size: 300px;
+    font-size: 250px;
 }
 
 .about__colums{
-    width: 30%;
+    width: 400px;
     margin: 0 5%;
-    min-height: 240px;
+    /* min-height: 240px; */
 }
 
 #about__info {
@@ -314,3 +315,34 @@ a {
     margin: 0 3%;    
 }
 
+#navbar__control {
+    display: none;
+    margin: 0 35px 0 0;
+    background-color: var(--semi);
+    color: var(--clear);
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {display: none;}
+    #navbar__control {
+        float: right;   
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        background-color: var(--semi);
+        color: var(--clear);
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .responsive a, .responsive p {
+        margin-right: 35px;
+        color: var(--clear);
+    }
+}
