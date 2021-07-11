@@ -320,16 +320,18 @@ a {
     margin: 0 35px 0 0;
     background-color: var(--semi);
     color: var(--clear);
-    border: none;
 }
 
 @media screen and (max-width: 600px) {
-    .navbar a {display: none;}
+    .navbar a {
+        display: none;
+    }
     #navbar__control {
         float: right;   
         display: block;
     }
 }
+
 @media screen and (max-width: 600px) {
     .responsive {
         display: flex;
@@ -341,8 +343,8 @@ a {
         justify-content: flex-end;
         align-items: flex-end;
     }
-    .responsive a, .responsive p {
-        margin-right: 35px;
+    .responsive * {
+        margin: 5px 35px 5px 0;
         color: var(--clear);
     }
 }
