@@ -8,15 +8,9 @@ html {
 
 :root {
     --dark: rgb(34, 40, 49);
-    --semi: rgb(57, 62, 70);
-    /* --semi: rgb(68, 68, 68); */
+    --semi: rgb(68, 68, 68);
     --skyblue: rgb(0, 173, 181);
     --clear: rgb(238, 238, 238);
-    
-    /* --dark: rgb(23, 23, 23);
-    --semi: rgb(68, 68, 68);
-    --skyblue: rgb(218, 0, 55);
-    --clear: rgb(237, 237, 237); */
 }
 
 .App {
@@ -69,6 +63,8 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     height: 100vh;
+    /* background-color: var(--semi);
+    color: var(--skyblue); */
 }
 
 .material-icons {
@@ -79,7 +75,6 @@ a {
 .about__colums{
     width: 400px;
     margin: 0 5%;
-    /* min-height: 240px; */
 }
 
 #about__info {
