@@ -8,6 +8,8 @@ const About = () => {
             <h1>Contact</h1>
             <span>
             I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have learned new tools, languages and frameworks everyday.
+            Let's get in contact, you can write at sebastian.pkfd@gmail.com.
+            You can also find me in:
             </span>
             <div id='contact-info'>
                 <div id='contact__links'>
