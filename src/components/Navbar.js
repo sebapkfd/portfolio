@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <div className={screen}>
             <p id="navbar__control" onClick={() => toggleNavbar()}>{toggleText}</p>
-            <a href="#about" onClick={() => hideNavbar()}>About</a>
+            <a href="#home" onClick={() => hideNavbar()}>Home</a>
             <a href='#skills' onClick={() => hideNavbar()}>Skills</a>
             <a href='#projects' onClick={() => hideNavbar()}>Projects</a>
             {/* <a href='#contact' onClick={() => hideNavbar()}>Contact</a> */}

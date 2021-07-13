@@ -4,7 +4,7 @@ import email from '../assets/email-logo.png';
 
 const Contact = () => {
     return (
-        <div className='section' id='contact' href='contact'>
+        <div className='section' id='about' href='about'>
             <h1>Contact</h1>
             <span>
                 I have been coding since 2017 and I’m always learning new languages and tools.
