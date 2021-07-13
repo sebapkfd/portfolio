@@ -78,7 +78,7 @@ a {
 }
 
 #about__info {
-    font-size: 1.3em;
+    font-size: 2em;
     display: flex;
     flex-direction: column;
 }
@@ -90,7 +90,7 @@ a {
 #about__info h2,
 #about__info h3 {
     margin: 0 0 20px 0;
-    font-size: 30px;
+    /* font-size: 0px; */
     text-align: left;
 }
 
