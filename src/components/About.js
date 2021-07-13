@@ -2,12 +2,12 @@ import github from '../assets/github-logo.png';
 import linkedin from '../assets/linkedin-logo.png';
 import email from '../assets/email-logo.png';
 
-const Contact = () => {
+const About = () => {
     return (
         <div className='section' id='about' href='about'>
             <h1>Contact</h1>
             <span>
-                I have been coding since 2017 and I’m always learning new languages and tools.
+            I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have learned new tools, languages and frameworks everyday.
             </span>
             <div id='contact-info'>
                 <div id='contact__links'>
@@ -27,4 +27,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default About;
