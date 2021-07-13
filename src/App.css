@@ -90,7 +90,6 @@ a {
 #home__info h2,
 #home__info h3 {
     margin: 0 0 20px 0;
-    /* font-size: 0px; */
     text-align: left;
 }
 
@@ -107,19 +106,17 @@ a {
 }
 
 #about {
-    background-color: var(--semi);
-    color: var(--clear);
+    background-color: var(--clear);
+    color: var(--dark);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 60vh;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
 }
 
-#about span {
-    width: 60%;
-    font-size: 25px;
-}
 
 .skill-item {
     background-color: var(--semi);
