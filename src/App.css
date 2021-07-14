@@ -124,7 +124,8 @@ a {
     border: none;
     font-size: 25px;
     transition: 0.3s;
-    margin: 40px 0 0 0; 
+    margin: 40px 0 0 0;
+    word-wrap: break-word;
 }
 
 .mail-link:hover {
