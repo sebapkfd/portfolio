@@ -27,7 +27,6 @@ a {
 
 .section {
     margin-bottom: 35px;
-    min-height: 100vh;
     padding: 0 15%;
     text-align: center;
 }
@@ -103,7 +102,7 @@ a {
 #skills h1,
 #projects h1,
 #contact h1 {
-    font-size: 3em;
+    font-size: 48px;
     margin-top: 50px;
 }
 
@@ -155,7 +154,6 @@ a {
     border-radius: 10px;
     position: absolute;
     padding: 0 1em;
-    /* margin: 0 50px 10px 50px; */
 }
   
 .mail-wrapper:hover .tooltip {
