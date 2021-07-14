@@ -15,11 +15,9 @@ const About = () => {
             </p>
 
             <div className='mail-wrapper'>
+                <p>Let's get in contact, you can write me at</p>
                 <span className='tooltip'>Click to copy email addres</span>
-                <p>
-                    Let's get in contact, you can write me at
-                    <span onClick={() => copyMail()} className='mail-link'> sebastian.pkfd@gmail.com</span>
-                </p>
+                <p onClick={() => copyMail()} className='mail-link'> sebastian.pkfd@gmail.com</p>
             </div>
             <p>You can also find me in:</p>
             <div id='contact__links'>

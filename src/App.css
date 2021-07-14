@@ -111,8 +111,6 @@ a {
     text-align: left;
     font-size: 25px;
     font-weight: 400;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
 }
 
 #contact__links img{
@@ -126,13 +124,12 @@ a {
     border: none;
     font-size: 25px;
     transition: 0.3s;
-    margin: 0; 
+    margin: 40px 0 0 0; 
 }
 
 .mail-link:hover {
     text-decoration: underline;
 }
-
 
 .mail-wrapper .tooltip {
     visibility: hidden;
@@ -141,10 +138,9 @@ a {
     color: var(--clear);
     text-align: center;
     border-radius: 10px;
-  
-    /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    padding: 0 1em;
+    margin: 0 50px 10px 50px;
 }
   
 .mail-wrapper:hover .tooltip {
