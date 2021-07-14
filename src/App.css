@@ -63,8 +63,6 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     height: 100vh;
-    /* background-color: var(--semi);
-    color: var(--skyblue); */
 }
 
 .material-icons {
@@ -117,6 +115,41 @@ a {
     align-items: flex-start; */
 }
 
+#contact__links img{
+    width: 60px;
+    margin: 0 15px;
+}
+
+.mail-link {
+    color: var(--skyblue);
+    font-weight: 600;
+    border: none;
+    font-size: 25px;
+    transition: 0.3s;
+    margin: 0; 
+}
+
+.mail-link:hover {
+    text-decoration: underline;
+}
+
+
+.mail-wrapper .tooltip {
+    visibility: hidden;
+    font-size: 15px;
+    background-color: var(--semi);
+    color: var(--clear);
+    text-align: center;
+    border-radius: 10px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+  
+.mail-wrapper:hover .tooltip {
+    visibility: visible;
+}
 
 .skill-item {
     background-color: var(--semi);

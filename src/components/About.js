@@ -1,5 +1,5 @@
-import github from '../assets/icons8-github.svg';
-import linkedin from '../assets/icons8-linkedin.svg';
+import github from '../assets/github-dark-logo.svg';
+import linkedin from '../assets/linkedin-logo.svg';
 
 const About = () => {
 
@@ -10,10 +10,17 @@ const About = () => {
     return (
         <div className='section' id='about' href='about'>
             <h1>About me</h1>
-            <span>
-            I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have been learning new tools, languages and frameworks everyday.
-            </span>
-            <p>Let's get in contact, you can write me at <button onClick={() => copyMail()}>sebastian.pkfd@gmail.com</button></p>
+            <p>
+                I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have been learning new tools, languages and frameworks everyday.
+            </p>
+
+            <div className='mail-wrapper'>
+                <span className='tooltip'>Click to copy email addres</span>
+                <p>
+                    Let's get in contact, you can write me at
+                    <span onClick={() => copyMail()} className='mail-link'> sebastian.pkfd@gmail.com</span>
+                </p>
+            </div>
             <p>You can also find me in:</p>
             <div id='contact__links'>
                 <a href='https://github.com/sebapkfd' target='_blank' rel="noopener noreferrer">
