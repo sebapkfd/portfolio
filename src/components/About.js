@@ -10,12 +10,12 @@ const About = () => {
     return (
         <div className='section' id='about' href='about'>
             <h1>About me</h1>
-            <p>
+            <p className='about-info'>
                 I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have been learning new tools, languages and frameworks everyday.
             </p>
+            <p className='about-info'>Let's get in contact, you can write me at</p>
 
             <div className='mail-wrapper'>
-                <p>Let's get in contact, you can write me at</p>
                 <span className='tooltip'>Click to copy email addres</span>
                 <p onClick={() => copyMail()} className='mail-link'> sebastian.pkfd@gmail.com</p>
             </div>

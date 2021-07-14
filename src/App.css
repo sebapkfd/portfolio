@@ -109,7 +109,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -122,14 +122,18 @@ a {
     color: var(--skyblue);
     font-weight: 600;
     border: none;
-    font-size: 25px;
+    font-size: 20px;
     transition: 0.3s;
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
     word-wrap: break-word;
 }
 
 .mail-link:hover {
     text-decoration: underline;
+}
+
+.about-info {
+    margin: 0;
 }
 
 .mail-wrapper .tooltip {
@@ -141,7 +145,7 @@ a {
     border-radius: 10px;
     position: absolute;
     padding: 0 1em;
-    margin: 0 50px 10px 50px;
+    /* margin: 0 50px 10px 50px; */
 }
   
 .mail-wrapper:hover .tooltip {
