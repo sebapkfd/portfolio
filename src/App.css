@@ -118,6 +118,12 @@ a {
     margin: 0 15px;
 }
 
+@media screen and (max-width: 600px) {
+    #contact__links {
+        display: flex;
+    }
+}
+
 .mail-link {
     color: var(--skyblue);
     font-weight: 600;
