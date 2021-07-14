@@ -370,7 +370,7 @@ a {
     .navbar.responsive #navbar-right *{
         display: flex;
         margin: 5px 35px 5px 0;
-        color: var(--dark);
+        color: var(--clear);
     }
 
     .navbar.responsive #navbar-left *:hover,
