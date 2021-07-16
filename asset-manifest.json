@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.59509bba.chunk.css",
+    "main.css": "/portfolio/static/css/main.6bf73e3c.chunk.css",
     "main.js": "/portfolio/static/js/main.afc7456d.chunk.js",
     "main.js.map": "/portfolio/static/js/main.afc7456d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
@@ -8,7 +8,7 @@
     "static/js/2.c274187f.chunk.js": "/portfolio/static/js/2.c274187f.chunk.js",
     "static/js/2.c274187f.chunk.js.map": "/portfolio/static/js/2.c274187f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.59509bba.chunk.css.map": "/portfolio/static/css/main.59509bba.chunk.css.map",
+    "static/css/main.6bf73e3c.chunk.css.map": "/portfolio/static/css/main.6bf73e3c.chunk.css.map",
     "static/js/2.c274187f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c274187f.chunk.js.LICENSE.txt",
     "static/media/CV.860e2de9.pdf": "/portfolio/static/media/CV.860e2de9.pdf",
     "static/media/battleship-desk.5abcc831.png": "/portfolio/static/media/battleship-desk.5abcc831.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.bcd5af5a.js",
     "static/js/2.c274187f.chunk.js",
-    "static/css/main.59509bba.chunk.css",
+    "static/css/main.6bf73e3c.chunk.css",
     "static/js/main.afc7456d.chunk.js"
   ]
 }
