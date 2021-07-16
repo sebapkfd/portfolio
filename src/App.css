@@ -114,6 +114,7 @@ a {
     text-align: left;
     font-size: 20px;
     font-weight: 400;
+    padding: 0 20%;
 }
 
 #contact__links img{
@@ -235,6 +236,8 @@ a {
 .project-item h2 {
     font-size: 2em;
     margin: 0;
+    font-size: 26px;
+    text-align: center;
 }
 
 .project-item__info {
