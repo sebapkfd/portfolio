@@ -205,7 +205,7 @@ a {
 .skill-item:hover,
 .project-item:hover,
 #contact-info:hover {
-    box-shadow: 6px 12px 12px rgba(0, 0, 255, 0.2);
+    box-shadow: 2px 8px 5px 1px rgba(0, 172, 181, 0.3);
 }
 
 .project-item{
