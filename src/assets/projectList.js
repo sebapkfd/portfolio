@@ -22,6 +22,7 @@ const projectList = [
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
         img: shopping,
+        description: 'Built using React Router, allows to see items, add and remove them from the cart, change the amount and then it shows the total price'
     },
     {
         name: 'Battleship',
@@ -30,7 +31,8 @@ const projectList = [
         id: '2',
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}, {jest}],
-        img: battleship
+        img: battleship,
+        description: 'Made to help understand TDD, it uses Jest for the testing. Allows to play against the PC, place your ships and attack by taking turns'
     },
     {
         name: 'Weather App',
@@ -39,7 +41,8 @@ const projectList = [
         id: '3',
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
-        img: weather
+        img: weather,
+        description: 'It shows weather conditions from cities from all around the world, implemented using Weather Api'
     },
     {
         name: 'CV project',
@@ -48,7 +51,8 @@ const projectList = [
         id: '4',
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
-        img: resume
+        img: resume,
+        description: 'Online form that allows you to introduce your personal data, education, skills and experience'
     },
     {
         name: 'Todo list',
@@ -57,7 +61,8 @@ const projectList = [
         id: '5',
         showOnHome: true,
         techUsed: [{javascript}, {webpack}, {css}, {html}, {git}],
-        img: todo
+        img: todo,
+        description: 'Allows you to create tasks, give them priorities, rank their difficulty, set them as complete and delete them'
     },
     {
         name: 'Memory Card Game',
@@ -66,7 +71,8 @@ const projectList = [
         id: '6',
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
-        img: card
+        img: card,
+        description: 'Memory game, consist on trying to select all colours without repeating any of them'
     }
 ]
 

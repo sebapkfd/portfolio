@@ -15,6 +15,7 @@ const ProjectItem = (props) => {
                     {project.techUsed.map((item, index) => {
                         return <Tool item={item} key={index}/>
                     })}
+                    <p>{project.description}</p>
                 </div>
                 <div className='project-item__links'>
                     <a href={project.link} className='demo-link' target='_blank' rel="noopener noreferrer">Live</a>
