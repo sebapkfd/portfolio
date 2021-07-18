@@ -1,6 +1,6 @@
-import shopping from '../assets/shopping-desk.png';
-import battleship from '../assets/battleship-desk.png';
-import weather from '../assets/weather-desk.png';
+import shopping from '../assets/shopping.png';
+import battleship from '../assets/battleship.png';
+import weather from '../assets/weather.png';
 import javascript from '../assets/js-logo.png';
 import react from '../assets/react-logo.png';
 import html from '../assets/html-logo.png';
@@ -9,6 +9,9 @@ import git from '../assets/git-logo.png';
 import npm from '../assets/npm-logo.png';
 import webpack from '../assets/webpack-logo.png';
 import jest from '../assets/jest-logo.png';
+import card from '../assets/card.png';
+import todo from '../assets/todo.png';
+import resume from '../assets/resume.png';
 
 const projectList = [
     {
@@ -43,26 +46,27 @@ const projectList = [
         repo: 'https://github.com/sebapkfd/cv-project',
         link: 'https://sebapkfd.github.io/cv-project/',
         id: '4',
-        showOnHome: false,
-        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}]
+        showOnHome: true,
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
+        img: resume
     },
     {
         name: 'Todo list',
         repo: 'https://github.com/sebapkfd/todolist',
         link: 'https://sebapkfd.github.io/todolist/',
         id: '5',
-        showOnHome: false,
+        showOnHome: true,
         techUsed: [{javascript}, {webpack}, {css}, {html}, {git}],
-        img: weather
+        img: todo
     },
     {
         name: 'Memory Card Game',
         repo: 'https://github.com/sebapkfd/memory-card',
         link: 'https://sebapkfd.github.io/memory-card/',
         id: '6',
-        showOnHome: false,
+        showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
-        img: weather
+        img: card
     }
 ]
 
