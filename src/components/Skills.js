@@ -14,7 +14,7 @@ import jest from '../assets/jest-logo.png';
 
 const Skills = () => {
     return (
-        <div className='section' id='skills' href='skills'>
+        <section id='skills' href='skills'>
             <h1>Skills</h1>
             <div id='skills-table'>
                 <div className='skill-item'>
@@ -88,7 +88,7 @@ const Skills = () => {
                     
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
