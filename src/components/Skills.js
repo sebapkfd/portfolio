@@ -41,7 +41,6 @@ const Skills = () => {
                             <p>Jest</p>
                         </div>
                     </div>
-                    
                 </div>
                 <div className='skill-item'>
                     <h2>Back end</h2>
@@ -59,7 +58,6 @@ const Skills = () => {
                             <p>MongoDB</p>
                         </div>
                     </div>
-                    
                 </div>
                 <div className='skill-item'>
                     <h2>Other tools</h2>
@@ -85,7 +83,6 @@ const Skills = () => {
                             <p>Webpack</p>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>

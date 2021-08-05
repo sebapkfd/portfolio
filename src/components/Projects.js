@@ -9,7 +9,6 @@ const Projects = () => {
             {projectList.map(pr => {
                 return (pr.showOnHome) ? <ProjectItem key={pr.id} project={pr} /> : null;
             })}
-            
         </section>
     )
 }
