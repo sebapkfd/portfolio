@@ -374,4 +374,8 @@ section {
     .navbar.responsive #home-button {
         margin-left: 0;
     }
+
+    .project-item {
+        padding-top: 35px;
+    }
 }
