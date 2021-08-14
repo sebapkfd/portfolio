@@ -7,19 +7,20 @@ html {
 }
 
 :root {
-    --dark: rgb(34, 40, 49);
-    --semi: rgb(68, 68, 68);
-    --skyblue: rgb(0, 173, 181);
-    --clear: rgb(238, 238, 238);
-    --main-shadow: 2px 8px 10px rgba(151, 151, 255, 0.2);
-    --effect-shadow: 2px 8px 5px 1px rgba(0, 172, 181, 0.3);
+    --clear: #eeedf0;
+    --cold: #6c72cb;
+    --warm: #cb69c1;
+    --dark: #17181f;
+    --main-shadow: 2px 8px 10px var(--clear);
+    --effect-shadow: 1px 1px 5px 1px var(--cold);
+
 }
 
 .App {
     display: flex;
     flex-direction: column;
-    color: var(--dark);
-    background-color: var(--clear);
+    color: var(--clear);
+    background-color: var(--dark);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,8 +35,8 @@ section {
 }
 
 .navbar {
-    background-color: var(--semi);
-    color: var(--clear);
+    background-color: var(--dark);
+    color: var(--cold);
     position: fixed;
     top: 0;
     margin: 0;
@@ -58,7 +59,7 @@ section {
 }
 
 .navbar a:hover {
-    color: var(--skyblue);
+    color: var(--cold);
 }
 
 #home {
@@ -71,7 +72,7 @@ section {
 }
 
 .material-icons {
-    color: var(--semi);
+    color: var(--cold);
     font-size: 250px;
 }
 
@@ -109,8 +110,6 @@ section {
 }
 
 #about {
-    background-color: var(--clear);
-    color: var(--dark);
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -131,17 +130,13 @@ section {
 }
 
 .mail-link {
-    color: var(--skyblue);
+    color: var(--cold);
     font-weight: 600;
     border: none;
     font-size: 20px;
     transition: 0.3s;
     margin: 20px 0 0 0;
     word-wrap: break-word;
-}
-
-.mail-link:hover {
-    text-decoration: underline;
 }
 
 .about-info {
@@ -151,7 +146,7 @@ section {
 .mail-wrapper .tooltip {
     visibility: hidden;
     font-size: 15px;
-    background-color: var(--semi);
+    background-color: var(--cold);
     color: var(--clear);
     text-align: center;
     border-radius: 10px;
@@ -164,13 +159,14 @@ section {
 }
 
 .skill-item {
-    background-color: var(--semi);
+    background-color: var(--dark);
     color: var(--clear);
+    border: solid 1px var(--cold);
     width: 320px;
     border-radius: 15px;
     padding: 5px 0;
     margin-bottom: 15px;
-    box-shadow: var(--main-shadow);
+    /* box-shadow: var(--main-shadow); */
     transition: 0.3s;
 }
 
@@ -196,7 +192,7 @@ section {
 }
 
 .skill-item__table div:hover {
-    color: var(--skyblue);
+    color: var(--warm);
 }
 
 .skill-item__table img {
@@ -215,11 +211,9 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 15px;
-    background-color: var(--clear);
     border-radius: 15px;
     padding: 10px 0;
     margin: 35px 0;
-    box-shadow: var(--main-shadow);
     transition: 0.3s;
 }
 
@@ -268,26 +262,26 @@ section {
 }
 
 .demo-link {
-    border: var(--skyblue) solid 3px;
-    color: var(--skyblue);
+    border: var(--warm) solid 3px;
+    color: var(--warm);
     transition: 0.3s;
 }
 
 .demo-link:hover {
-    border: var(--skyblue) solid 3px;
-    background-color: var(--skyblue);
+    border: var(--warm) solid 3px;
+    background-color: var(--warm);
     color: var(--clear);
 }
 
 .repo-link {
-    border: var(--semi) solid 3px;
-    color: var(--semi);
+    border: var(--cold) solid 3px;
+    color: var(--cold);
     transition: 0.3s;
 }
 
 .repo-link:hover {
-    border: var(--semi) solid 3px;
-    background-color: var(--semi);
+    border: var(--cold) solid 3px;
+    background-color: var(--cold);
     color: var(--clear);
 }
 
@@ -303,7 +297,7 @@ section {
     display: flex;
     flex: 0;
     color: var(--clear);
-    background-color: var(--semi);
+    background-color: var(--cold);
     border-radius: 15px;
     padding: 0 5px;
     transition: 0.3s;
@@ -319,7 +313,7 @@ section {
 }
 
 .tool:hover {
-    color: var(--skyblue);
+    color: var(--dark);
 }
 
 .project-item__stack img{
@@ -331,8 +325,11 @@ section {
 #navbar__control {
     display: none;
     margin: 0 35px 0 0;
-    background-color: var(--semi);
     color: var(--clear);
+}
+
+#navbar__control:hover {
+    color: var(--cold);
 }
 
 @media screen and (max-width: 600px) {
@@ -356,8 +353,6 @@ section {
         flex-direction: column;
         position: fixed;
         width: 100%;
-        background-color: var(--semi);
-        color: var(--clear);
         justify-content: flex-end;
         align-items: flex-end;
         transition: 0.3s;
@@ -375,13 +370,6 @@ section {
     .navbar.responsive #navbar-right *{
         display: flex;
         margin: 5px 35px 5px 0;
-        color: var(--clear);
-    }
-
-    .navbar.responsive #navbar-left *:hover,
-    .navbar.responsive #navbar-right *:hover,
-    #navbar__control:hover{
-        color: var(--skyblue);
     }
 
     .navbar.responsive #home-button {
