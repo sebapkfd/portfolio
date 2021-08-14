@@ -1,5 +1,5 @@
-import githubDark from '../assets/github-dark-logo.svg';
-import linkedin from '../assets/linkedin-logo.svg';
+import githubLight from '../assets/github-logo.png'
+import linkedin from '../assets/linkedin-logo.png';
 
 const About = () => {
 
@@ -22,7 +22,7 @@ const About = () => {
             <p>You can also find me in:</p>
             <div id='contact__links'>
                 <a href='https://github.com/sebapkfd' target='_blank' rel="noopener noreferrer">
-                    <img src={githubDark} alt='github-logo'/>
+                    <img src={githubLight} alt='github-logo'/>
                 </a>
                 <a href='https://www.linkedin.com/in/sebasti%C3%A1n-soto-59b493207/' target='_blank' rel="noopener noreferrer">
                     <img src={linkedin} alt='linkedin-logo'/>

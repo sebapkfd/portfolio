@@ -11,9 +11,7 @@ html {
     --cold: #6c72cb;
     --warm: #cb69c1;
     --dark: #17181f;
-    --main-shadow: 2px 8px 10px var(--clear);
-    --effect-shadow: 1px 1px 5px 1px var(--cold);
-
+    --effect-shadow: 1px 1px 5px 1px var(--warm);
 }
 
 .App {
@@ -103,8 +101,7 @@ section {
 
 #about h1,
 #skills h1,
-#projects h1,
-#contact h1 {
+#projects h1 {
     font-size: 48px;
     margin-top: 50px;
 }
@@ -166,7 +163,6 @@ section {
     border-radius: 15px;
     padding: 5px 0;
     margin-bottom: 15px;
-    /* box-shadow: var(--main-shadow); */
     transition: 0.3s;
 }
 
@@ -200,10 +196,13 @@ section {
     width: 48px;
 }
 
-.skill-item:hover,
+.skill-item:hover {
+    border-color: var(--warm);
+}
+
 .project-item:hover,
 #contact-info:hover {
-    box-shadow: var(--effect-shadow);
+    border-color: var(--cold);
 }
 
 .project-item{
@@ -215,6 +214,7 @@ section {
     padding: 10px 0;
     margin: 35px 0;
     transition: 0.3s;
+    border: solid 1px var(--dark);
 }
 
 .project-item {
@@ -222,7 +222,7 @@ section {
 }
 
 .project-item div {
-    width: 531px;
+    width: 530px;
 }
 
 .project-item img {
