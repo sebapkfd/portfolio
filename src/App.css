@@ -95,6 +95,10 @@ section {
     text-align: left;
 }
 
+h3 {
+    color: var(--cold);
+}
+
 #home__info span {
     text-align: justify;
 }
