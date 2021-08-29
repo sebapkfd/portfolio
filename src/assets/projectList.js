@@ -1,6 +1,8 @@
 import shopping from '../assets/shopping.png';
 import battleship from '../assets/battleship.png';
 import weather from '../assets/weather.png';
+import card from '../assets/card.png';
+import todo from '../assets/todo.png';
 import javascript from '../assets/js-logo.png';
 import react from '../assets/react-logo.png';
 import html from '../assets/html-logo.png';
@@ -9,8 +11,6 @@ import git from '../assets/git-logo.png';
 import npm from '../assets/npm-logo.png';
 import webpack from '../assets/webpack-logo.png';
 import jest from '../assets/jest-logo.png';
-import card from '../assets/card.png';
-import todo from '../assets/todo.png';
 import resume from '../assets/resume.png';
 
 const projectList = [
@@ -60,7 +60,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/todolist/',
         id: '5',
         showOnHome: true,
-        techUsed: [{javascript}, {webpack}, {css}, {html}, {git}],
+        techUsed: [{javascript}, {react}, {webpack}, {css}, {html}, {git}],
         img: todo,
         description: 'Allows you to create tasks, give them priorities, rank their difficulty, set them as complete and delete them'
     },
