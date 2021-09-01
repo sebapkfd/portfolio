@@ -329,6 +329,7 @@ h3 {
     display: none;
     margin: 0 35px 0 0;
     color: var(--clear);
+    font-size: 1.2em;
 }
 
 #navbar__control:hover {
