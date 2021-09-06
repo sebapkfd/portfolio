@@ -35,6 +35,16 @@ const projectList = [
         description: 'Made to help understand TDD, it uses Jest for the testing. Allows to play against the PC, place your ships and attack by taking turns'
     },
     {
+        name: 'Todo list',
+        repo: 'https://github.com/sebapkfd/todolist',
+        link: 'https://sebapkfd.github.io/todolist/',
+        id: '5',
+        showOnHome: true,
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {redux}],
+        img: todo,
+        description: 'Allows you to create tasks, give them priorities, rank their difficulty, set them as complete and delete them'
+    },
+    {
         name: 'Weather App',
         repo: 'https://github.com/sebapkfd/Weather-app',
         link: 'https://sebapkfd.github.io/Weather-app/',
@@ -53,16 +63,6 @@ const projectList = [
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
         img: resume,
         description: 'Online form that allows you to introduce your personal data, education, skills and experience'
-    },
-    {
-        name: 'Todo list',
-        repo: 'https://github.com/sebapkfd/todolist',
-        link: 'https://sebapkfd.github.io/todolist/',
-        id: '5',
-        showOnHome: true,
-        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {redux}],
-        img: todo,
-        description: 'Allows you to create tasks, give them priorities, rank their difficulty, set them as complete and delete them'
     },
     {
         name: 'Memory Card Game',
