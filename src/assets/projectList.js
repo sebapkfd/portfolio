@@ -9,8 +9,8 @@ import html from '../assets/html-logo.png';
 import css from '../assets/css-logo.png';
 import git from '../assets/git-logo.png';
 import npm from '../assets/npm-logo.png';
-import webpack from '../assets/webpack-logo.png';
 import jest from '../assets/jest-logo.png';
+import redux from '../assets/redux-logo.png';
 import resume from '../assets/resume.png';
 
 const projectList = [
@@ -20,7 +20,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/shopping-cart/',
         id: '1',
         showOnHome: true,
-        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}, {redux}],
         img: shopping,
         description: 'Built using React Router, allows to see items, add and remove them from the cart, change the amount and then it shows the total price'
     },
@@ -60,7 +60,7 @@ const projectList = [
         link: 'https://sebapkfd.github.io/todolist/',
         id: '5',
         showOnHome: true,
-        techUsed: [{javascript}, {react}, {webpack}, {css}, {html}, {git}],
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {redux}],
         img: todo,
         description: 'Allows you to create tasks, give them priorities, rank their difficulty, set them as complete and delete them'
     },
