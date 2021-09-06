@@ -1,16 +1,16 @@
-import js from '../assets/js-logo.png';
-import react from '../assets/react-logo.png';
-import html from '../assets/html-logo.png';
-import css from '../assets/css-logo.png';
-import node from '../assets/node-logo.png';
-import express from '../assets/express-logo.svg';
-import mongo from '../assets/mongo-logo.png'
-import git from '../assets/git-logo.png';
-import npm from '../assets/npm-logo.png';
-import heroku from '../assets/heroku-logo.png';
-import github from '../assets/github-logo.png';
-import webpack from '../assets/webpack-logo.png';
-import jest from '../assets/jest-logo.png';
+import js from '../assets/logos/js.png';
+import react from '../assets/logos/react.png';
+import html from '../assets/logos/html.png';
+import css from '../assets/logos/css.png';
+import node from '../assets/logos/node.png';
+import express from '../assets/logos/express.svg';
+import mongo from '../assets/logos/mongo.png'
+import git from '../assets/logos/git.png';
+import npm from '../assets/logos/npm.png';
+import heroku from '../assets/logos/heroku.png';
+import github from '../assets/logos/github.png';
+import webpack from '../assets/logos/webpack.png';
+import jest from '../assets/logos/jest.png';
 
 const Skills = () => {
     return (
@@ -21,23 +21,23 @@ const Skills = () => {
                     <h2>Front end</h2>
                     <div className='skill-item__table'>
                         <div>
-                            <img src={js} alt='js-logo'/>
+                            <img src={js} alt='js'/>
                             <p>Javascript</p>
                         </div>
                         <div>
-                            <img src={react} alt='react-logo'/>
+                            <img src={react} alt='react'/>
                             <p>React</p>
                         </div>
                         <div>
-                            <img src={html} alt='html-logo'/>
+                            <img src={html} alt='html'/>
                             <p>HTML</p>
                         </div>
                         <div>
-                            <img src={css} alt='css-logo'/>
+                            <img src={css} alt='css'/>
                             <p>CSS</p>
                         </div>
                         <div>
-                            <img src={jest} alt='jest-logo'/>
+                            <img src={jest} alt='jest'/>
                             <p>Jest</p>
                         </div>
                     </div>
@@ -46,15 +46,15 @@ const Skills = () => {
                     <h2>Back end</h2>
                     <div className='skill-item__table'>
                         <div>
-                            <img src={node} alt='node-logo'/>
+                            <img src={node} alt='node'/>
                             <p>Node</p>
                         </div>
                         <div>
-                            <img src={express} alt='express-logo'/>
+                            <img src={express} alt='express'/>
                             <p>Express</p>
                         </div>
                         <div>
-                            <img src={mongo} alt='mongo-logo'/>
+                            <img src={mongo} alt='mongo'/>
                             <p>MongoDB</p>
                         </div>
                     </div>
@@ -63,23 +63,23 @@ const Skills = () => {
                     <h2>Other tools</h2>
                     <div className='skill-item__table'>
                         <div>
-                            <img src={git} alt='git-logo'/>
+                            <img src={git} alt='git'/>
                             <p>Git</p>
                         </div>
                         <div>
-                            <img src={npm} alt='npm-logo'/>
+                            <img src={npm} alt='npm'/>
                             <p>NPM</p>
                         </div>
                         <div>
-                            <img src={heroku} alt='heroku-logo'/>
+                            <img src={heroku} alt='heroku'/>
                             <p>Heroku</p>
                         </div>
                         <div>
-                            <img src={github} alt='github-logo'/>
+                            <img src={github} alt='github'/>
                             <p>Github</p>    
                         </div>
                         <div>
-                            <img src={webpack} alt='webpack-logo'/>
+                            <img src={webpack} alt='webpack'/>
                             <p>Webpack</p>
                         </div>
                     </div>

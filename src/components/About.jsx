@@ -1,5 +1,5 @@
-import githubLight from '../assets/github-logo.png'
-import linkedin from '../assets/linkedin-logo.png';
+import githubLight from '../assets/logos/github.png'
+import linkedin from '../assets/logos/linkedin.png';
 
 const About = () => {
 
