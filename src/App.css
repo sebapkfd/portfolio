@@ -159,7 +159,7 @@ h3 {
     visibility: visible;
 }
 
-.skill-item {
+.skill-card {
     background-color: var(--dark);
     color: var(--clear);
     border: solid 1px var(--cold);
@@ -200,7 +200,7 @@ h3 {
     width: 48px;
 }
 
-.skill-item:hover {
+.skill-card:hover {
     border-color: var(--warm);
 }
 
