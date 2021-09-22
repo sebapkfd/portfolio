@@ -11,6 +11,8 @@ import heroku from '../assets/logos/heroku.png';
 import github from '../assets/logos/github.png';
 import webpack from '../assets/logos/webpack.png';
 import jest from '../assets/logos/jest.png';
+import redux from '../assets/logos/redux.png';
+import python from '../assets/logos/python.png';
 
 const Skills = () => {
     return (
@@ -40,6 +42,10 @@ const Skills = () => {
                             <img src={jest} alt='jest'/>
                             <p>Jest</p>
                         </div>
+                        <div>
+                            <img src={redux} alt='redux'/>
+                            <p>Redux</p>
+                        </div>
                     </div>
                 </div>
                 <div className='skill-item'>
@@ -60,8 +66,12 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className='skill-item'>
-                    <h2>Other tools</h2>
+                    <h2>Others</h2>
                     <div className='skill-item__table'>
+                        <div>
+                            <img src={python} alt='python'/>
+                            <p>Python</p>
+                        </div>
                         <div>
                             <img src={git} alt='git'/>
                             <p>Git</p>
