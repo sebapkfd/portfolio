@@ -1,8 +1,8 @@
-import githubLight from '../assets/logos/github.png'
+import githubLight from '../assets/logos/github.png';
 import linkedin from '../assets/logos/linkedin.png';
 
 const About = () => {
-
+    
     const copyMail = () => {
         navigator.clipboard.writeText('sebastian.pkfd@gmail.com');
     }

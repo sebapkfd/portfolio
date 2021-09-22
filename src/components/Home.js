@@ -1,5 +1,4 @@
 const Home = () => {
-
     return (
         <section id='home' href='home'>
             <div className='home__colums'>

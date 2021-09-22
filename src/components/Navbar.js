@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const hideNavbar = () => {
         if (screen === 'navbar responsive') {
-            setScreen('navbar')
+            setScreen('navbar');
         }
     }
 
