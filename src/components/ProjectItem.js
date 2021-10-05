@@ -1,8 +1,6 @@
 import Tool from "./Tool";
 
-const ProjectItem = (props) => { 
-    const {project} = props;
-
+const ProjectItem = ({ project }) => {
     return (
         <div className='project-item'>
             <div>

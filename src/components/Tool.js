@@ -1,6 +1,4 @@
-const Tool = (props) => {
-    const {item} = props;
-
+const Tool = ({ item }) => {
     return (
         <div className='tool'>
             <img src={Object.values(item)[0]} alt=''/>
