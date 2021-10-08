@@ -55,6 +55,16 @@ const projectList = [
         description: 'It shows weather conditions from cities from all around the world, implemented using Weather Api'
     },
     {
+        name: 'Memory Card Game',
+        repo: 'https://github.com/sebapkfd/memory-card',
+        link: 'https://sebapkfd.github.io/memory-card/',
+        id: '6',
+        showOnHome: true,
+        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}, {redux}],
+        img: card,
+        description: 'Memory game, consist on trying to select all colours without repeating any of them'
+    },
+    {
         name: 'CV project',
         repo: 'https://github.com/sebapkfd/cv-project',
         link: 'https://sebapkfd.github.io/cv-project/',
@@ -63,16 +73,6 @@ const projectList = [
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
         img: resume,
         description: 'Online form that allows you to introduce your personal data, education, skills and experience'
-    },
-    {
-        name: 'Memory Card Game',
-        repo: 'https://github.com/sebapkfd/memory-card',
-        link: 'https://sebapkfd.github.io/memory-card/',
-        id: '6',
-        showOnHome: true,
-        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
-        img: card,
-        description: 'Memory game, consist on trying to select all colours without repeating any of them'
     }
 ]
 
