@@ -8,9 +8,9 @@ html {
 
 :root {
     --clear: #ffffff;
-    --cold: #6c72cb;
-    --warm: #cb69c1;
-    --dark: #17181f;
+    --cold: #3f4bec;
+    --warm: #cf66c5;
+    --dark: #0d0d0f;
     --effect-shadow: 1px 1px 5px 1px var(--warm);
 }
 
