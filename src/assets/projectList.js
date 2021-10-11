@@ -1,7 +1,6 @@
 import shopping from '../assets/thumbnails/shopping.png';
 import battleship from '../assets/thumbnails/battleship.png';
 import weather from '../assets/thumbnails/weather.png';
-import resume from '../assets/thumbnails/resume.png';
 import todo from '../assets/thumbnails/todo.png';
 import card from '../assets/thumbnails/card.png';
 import javascript from '../assets/logos/js.png';
@@ -38,7 +37,7 @@ const projectList = [
         name: 'Todo list',
         repo: 'https://github.com/sebapkfd/todolist',
         link: 'https://sebapkfd.github.io/todolist/',
-        id: '5',
+        id: '3',
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {redux}],
         img: todo,
@@ -48,7 +47,7 @@ const projectList = [
         name: 'Weather App',
         repo: 'https://github.com/sebapkfd/Weather-app',
         link: 'https://sebapkfd.github.io/Weather-app/',
-        id: '3',
+        id: '4',
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
         img: weather,
@@ -58,21 +57,11 @@ const projectList = [
         name: 'Memory Card Game',
         repo: 'https://github.com/sebapkfd/memory-card',
         link: 'https://sebapkfd.github.io/memory-card/',
-        id: '6',
+        id: '5',
         showOnHome: true,
         techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}, {redux}],
         img: card,
         description: 'Memory game, consist on trying to select all colours without repeating any of them'
-    },
-    {
-        name: 'CV project',
-        repo: 'https://github.com/sebapkfd/cv-project',
-        link: 'https://sebapkfd.github.io/cv-project/',
-        id: '4',
-        showOnHome: true,
-        techUsed: [{javascript}, {react}, {css}, {html}, {git}, {npm}],
-        img: resume,
-        description: 'Online form that allows you to introduce your personal data, education, skills and experience'
     }
 ]
 
