@@ -14,7 +14,6 @@ const About = () => {
                 I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have been learning new tools, languages and frameworks everyday. Currently, I'm learning Redux and working on improving my Front end skills.
             </p>
             <p className='about-info'>Let's get in contact, email me at</p>
-
             <div className='mail-wrapper'>
                 <span className='tooltip'>Click to copy email addres</span>
                 <p onClick={() => copyMail()} className='mail-link'> sebastian.pkfd@gmail.com</p>
