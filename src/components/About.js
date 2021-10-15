@@ -22,10 +22,10 @@ const About = () => {
             <p>You can also find me in:</p>
             <div id='contact__links'>
                 <a href='https://github.com/sebapkfd' target='_blank' rel="noopener noreferrer">
-                    <img src={githubLight} alt='github-logo'/>
+                    <img src={githubLight} alt='github'/>
                 </a>
                 <a href='https://www.linkedin.com/in/sebasti%C3%A1n-soto-59b493207/' target='_blank' rel="noopener noreferrer">
-                    <img src={linkedin} alt='linkedin-logo'/>
+                    <img src={linkedin} alt='linkedin'/>
                 </a>
             </div>
         </section>
