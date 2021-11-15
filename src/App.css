@@ -46,7 +46,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 45px;
+    padding: 0 10%;
 }
 
 #home-button {
@@ -221,10 +221,6 @@ h3 {
     width: 48px;
 }
 
-.skill-card:hover {
-    border-color: var(--warm);
-}
-
 .project-item:hover {
     border-color: var(--cold);
 }
@@ -357,7 +353,7 @@ h3 {
     color: var(--cold);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 715px) {
     .navbar {
         justify-content: flex-end;
     }
