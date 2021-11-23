@@ -11,7 +11,7 @@ const About = () => {
         <section id='about' href='about'>
             <h1>About me</h1>
             <p className='about-info'>
-                I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have been learning new tools, languages and frameworks everyday. Currently, I'm learning Redux and working on improving my Front end skills.
+                I have been coding since 2017 when I started my career. In 2020 I started learning self-taught Web Development by building projects and following The Odin Project curriculum, since then I have been learning new tools, languages and frameworks everyday. Currently, I'm interested in learning about server side rendering and deepen my knowledge on databases. 
             </p>
             <p className='about-info'>Let's get in contact, email me at</p>
             <div className='mail-wrapper'>
