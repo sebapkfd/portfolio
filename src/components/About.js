@@ -4,7 +4,7 @@ import linkedin from '../assets/logos/linkedin.png';
 const About = () => {
     
     const copyMail = () => {
-        navigator.clipboard.writeText('sebastian.pkfd@gmail.com');
+        navigator.clipboard.writeText('ssoto.desarrollador@gmail.com');
     }
 
     return (
@@ -16,7 +16,7 @@ const About = () => {
             <p className='about-info'>Let's get in contact, email me at</p>
             <div className='mail-wrapper'>
                 <span className='tooltip'>Click to copy email addres</span>
-                <p onClick={() => copyMail()} className='mail-link'> sebastian.pkfd@gmail.com</p>
+                <p onClick={() => copyMail()} className='mail-link'> ssoto.desarrollador@gmail.com</p>
             </div>
             <p>You can also find me in:</p>
             <div id='contact__links'>
